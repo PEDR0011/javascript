@@ -8,6 +8,7 @@ console.log(exp);
 console.log(exp2);
 */
 
+/*
 let soma = 2 + 2 + 2;
 console.log(soma);
 
@@ -28,7 +29,9 @@ console.log(restoDeDivisao);
 
 let tudoJunto = (10 + 10 - 5) * 2 ** 2 / 3 % 7;
 console.log(tudoJunto);
+*/
 
+/*
  // Operadore com Strings
 let string = "11" + 4;
 console.log( string);
@@ -45,3 +48,56 @@ console.log(div);
 //NaN (Not a Number)
 let testNan = "soma isso 10" / 10;
 console.log(isNaN(testNan));
+*/
+
+/*
+// Operadores Aritméticos Unários
+let incrementa = 1;
+console.log(incrementa++);
+console.log(incrementa);
+
+let incrementa2 = 9
+console.log(++incrementa2);
+
+let descrementa = 3 ;
+console.log(descrementa--);
+console.log(descrementa);
+
+let descrementa2 = 100;
+console.log(--descrementa2)
+
+let x = "10";
+console.log(-x)
+console.log(+x);
+
+let nan = "isso é 10";
+let somaa = 10;
+console.log(+nan + somaa);
+*/
+
+// EXERCICO
+
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total);
+
+var nan1 = "valor 90";
+var nan2 = "40";
+console.log(+nan1 + nan2);
+
+var nann1 = 200;
+var nann2 = "dois";
+console.log(nann1 - nann2);
+
+var string200 = "200";
+var cinquenta = 50;
+console.log(+string200 + cinquenta);
+
+var cinco = 5;
+console.log(++cinco);
+
+let numero = "80";
+numero = +numero;
+let unidade = "kg";
+let peso = numero;
+let pesoPorDois = peso / 2;
+console.log(pesoPorDois + unidade);
