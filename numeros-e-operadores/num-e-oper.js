@@ -28,3 +28,20 @@ console.log(restoDeDivisao);
 
 let tudoJunto = (10 + 10 - 5) * 2 ** 2 / 3 % 7;
 console.log(tudoJunto);
+
+ // Operadore com Strings
+let string = "11" + 4;
+console.log( string);
+
+let numero = "60" - 10;
+console.log(numero);
+
+let mult = "10" * 2;
+console.log(mult);
+
+let div = "20" / 2;
+console.log(div);
+
+//NaN (Not a Number)
+let testNan = "soma isso 10" / 10;
+console.log(isNaN(testNan));
