@@ -29,3 +29,24 @@ function corFavorita(cor) {
 corFavorita("preto");
 
 addEventListener("click", function() {console.log("eai");})
+
+
+function suaIdade(idade) {
+  let suaIdade = idade;
+  if(isNaN(suaIdade)) {
+    return console.log("Apenas números!!");
+  }else if(suaIdade <= 0 ) {
+    return console.log("Impossivel");
+  }else if(suaIdade <= 12) {
+    return console.log("Criança");
+  }else if(suaIdade <= 17) {
+    return console.log("Adolecente");
+  }else if(suaIdade >=60) {
+    return console.log("Idoso");
+  }else if(suaIdade >= 18) {
+    return console.log("Adulto");
+  }else if(suaIdade == " ") {
+    return console.log("Apenas numero!")
+  }
+}
+suaIdade();
