@@ -27,3 +27,5 @@ function corFavorita(cor) {
 }
 }
 corFavorita("preto");
+
+addEventListener("click", function() {console.log("eai");})
