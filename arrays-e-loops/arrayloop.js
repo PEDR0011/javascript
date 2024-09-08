@@ -23,3 +23,11 @@ let i = 1
 while (i <= 10) {
   console.log(i++);
 }
+
+
+
+var jogador = ["cr7", "messi", "ronaldinho", "ronaldo"]
+
+for (var item = 0; item < jogador.length; item++) {
+  console.log(jogador[item]);
+}
